@@ -14,7 +14,7 @@
 #import "FGConfigManager.h"
 #import "FGColourView.h"
 #import "FGScratchView.h"
-
+#import "FGAboutViewController.h"
 #define kBitsPerComponent (8)
 #define kBitsPerPixel (32)
 #define kPixelChannelCount (4)
@@ -245,7 +245,8 @@
     
     //更多选项
     [self establishButtonWithImage:@"icon_more" slectImage:@""  isSelected:NO isColorSelection:NO andAction:^{
-        
+        FGAboutViewController *vc = [[FGAboutViewController alloc]init];
+        [self presentViewController:vc animated:YES completion:nil];
         
     }];
     
