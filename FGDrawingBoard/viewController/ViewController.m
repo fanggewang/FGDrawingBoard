@@ -319,19 +319,22 @@
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
     
     //self.imageView.image = [self Mosaic:image Level:50];
-    //保持马赛克方格大小相同
-    if (image.size.width == kwidth && image.size.height == kheight) {
-        self.imageView.image = [ViewController transToMosaicImage:image blockLevel:kwidth/20];
-    }else{
-        self.imageView.image = image;
-        self.imageView.image = [ViewController transToMosaicImage:[self captureCurrentView:self.imageView] blockLevel:kwidth/20];
-    }
-    
     //涂抹图
     if (_scratchView != nil) {
         [_scratchView removeFromSuperview];
         
     }
+    //保持马赛克方格大小相同
+    if (image.size.width == kwidth && image.size.height == kheight) {
+        self.imageView.image = [ViewController transToMosaicImage:image blockLevel:kwidth/20];
+    }else{
+        self.imageView.image = image;
+        UIImage *mixImag = [self captureCurrentView:self.imageView];
+        
+        self.imageView.image = [ViewController transToMosaicImage:mixImag blockLevel:kwidth/20];
+    }
+    
+
     UIImageView *sImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kwidth, kheight)];
     sImg.contentMode = UIViewContentModeScaleAspectFill;
     sImg.image = image;
