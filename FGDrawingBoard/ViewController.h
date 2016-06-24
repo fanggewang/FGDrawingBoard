@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
++ (UIImage *)transToMosaicImage:(UIImage*)orginImage blockLevel:(NSUInteger)level;
 
 @end
 
