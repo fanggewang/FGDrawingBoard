@@ -7,7 +7,7 @@
 
 
 画板界面
-![image]( FGDrawingBoard/1.PNG )
+![image]( https://github.com/fanggewang/FGDrawingBoard/blob/master/1.PNG?raw=true )
 
 自由绘图
 ![image](2.png)
