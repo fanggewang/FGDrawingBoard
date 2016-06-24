@@ -7,7 +7,7 @@
 
 
 画板界面
-![image](1.png)
+![image]( FGDrawingBoard/1.PNG )
 
 自由绘图
 ![image](2.png)
