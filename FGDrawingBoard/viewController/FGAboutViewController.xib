@@ -34,8 +34,8 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一个模仿白板的自制小画板" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hw-ON-jkH">
-                    <rect key="frame" x="8" y="341" width="304" height="106"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一个模仿白板的自制小画板" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hw-ON-jkH">
+                    <rect key="frame" x="8" y="329" width="304" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -44,12 +44,15 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="oIp-Xg-VxK" firstAttribute="top" secondItem="7t0-Qf-iEy" secondAttribute="bottom" constant="46" id="05l-mD-2Jt"/>
+                <constraint firstItem="1hw-ON-jkH" firstAttribute="top" secondItem="LVS-d0-OAN" secondAttribute="bottom" constant="13.5" id="10v-JV-RRP"/>
                 <constraint firstAttribute="trailing" secondItem="oIp-Xg-VxK" secondAttribute="trailing" constant="8" id="Ez3-Cy-MVI"/>
                 <constraint firstItem="LVS-d0-OAN" firstAttribute="top" secondItem="oIp-Xg-VxK" secondAttribute="bottom" constant="15" id="HMr-JZ-MtT"/>
                 <constraint firstItem="7t0-Qf-iEy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="dfq-Yv-i7q"/>
+                <constraint firstAttribute="trailing" secondItem="1hw-ON-jkH" secondAttribute="trailing" constant="8" id="eyA-1x-ezr"/>
                 <constraint firstItem="LVS-d0-OAN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="ft2-LE-FTa"/>
                 <constraint firstItem="oIp-Xg-VxK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="np2-JX-TLw"/>
                 <constraint firstItem="7t0-Qf-iEy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qdh-5a-bXe"/>
+                <constraint firstItem="1hw-ON-jkH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="sLG-zz-Nbc"/>
                 <constraint firstAttribute="trailing" secondItem="LVS-d0-OAN" secondAttribute="trailing" constant="8" id="tcC-PQ-rmJ"/>
             </constraints>
             <point key="canvasLocation" x="409" y="290"/>

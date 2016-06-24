@@ -15,6 +15,8 @@
 #import "FGColourView.h"
 #import "FGScratchView.h"
 #import "FGAboutViewController.h"
+#import "E_HUDView.h"
+
 #define kBitsPerComponent (8)
 #define kBitsPerPixel (32)
 #define kPixelChannelCount (4)
@@ -294,11 +296,11 @@
     NSString *msg = nil ;
     
     if(error != NULL){
-        
+        [E_HUDView showMsg:@"保存图片失败！" inView:self.view];
         msg =@"保存图片失败" ;
         
     }else{
-        
+        [E_HUDView showMsg:@"保存图片成功！" inView:self.view];
         msg = @"保存图片成功" ;
         
     }

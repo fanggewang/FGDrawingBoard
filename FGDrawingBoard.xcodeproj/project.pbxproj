@@ -47,6 +47,7 @@
 		84D852531D1D083700C27106 /* FGAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D8524F1D1D083700C27106 /* FGAboutViewController.m */; };
 		84D852541D1D083700C27106 /* FGAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D852501D1D083700C27106 /* FGAboutViewController.xib */; };
 		84D852551D1D083700C27106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D852521D1D083700C27106 /* ViewController.m */; };
+		84D852581D1D0BAC00C27106 /* E_HUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D852571D1D0BAC00C27106 /* E_HUDView.m */; };
 		84F7D3C91CE1C4B800528926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D3C81CE1C4B800528926 /* main.m */; };
 		84F7D3CC1CE1C4B800528926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D3CB1CE1C4B800528926 /* AppDelegate.m */; };
 		84F7D3D21CE1C4B800528926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F7D3D01CE1C4B800528926 /* Main.storyboard */; };
@@ -127,6 +128,8 @@
 		84D852501D1D083700C27106 /* FGAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FGAboutViewController.xib; path = viewController/FGAboutViewController.xib; sourceTree = "<group>"; };
 		84D852511D1D083700C27106 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = viewController/ViewController.h; sourceTree = "<group>"; };
 		84D852521D1D083700C27106 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = viewController/ViewController.m; sourceTree = "<group>"; };
+		84D852561D1D0BAC00C27106 /* E_HUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = E_HUDView.h; path = tool/E_HUDView.h; sourceTree = "<group>"; };
+		84D852571D1D0BAC00C27106 /* E_HUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = E_HUDView.m; path = tool/E_HUDView.m; sourceTree = "<group>"; };
 		84F7D3C41CE1C4B800528926 /* FGDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F7D3C81CE1C4B800528926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F7D3CA1CE1C4B800528926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 		84F7D3FB1CE2C23B00528926 /* 工具(tool) */ = {
 			isa = PBXGroup;
 			children = (
+				84D852561D1D0BAC00C27106 /* E_HUDView.h */,
+				84D852571D1D0BAC00C27106 /* E_HUDView.m */,
 				84D852321D1D082200C27106 /* Alldefined.h */,
 				84D852331D1D082200C27106 /* FGColorSelectionButton.h */,
 				84D852341D1D082200C27106 /* FGColorSelectionButton.m */,
@@ -497,6 +502,7 @@
 				84D8524B1D1D082200C27106 /* FGScratchImageView.m in Sources */,
 				84D8524D1D1D082200C27106 /* FGTabbarView.m in Sources */,
 				84D852471D1D082200C27106 /* FGConfigManager.m in Sources */,
+				84D852581D1D0BAC00C27106 /* E_HUDView.m in Sources */,
 				84F7D3CC1CE1C4B800528926 /* AppDelegate.m in Sources */,
 				84F7D4071CE2DB6700528926 /* FGButtonModel.m in Sources */,
 				84F7D3C91CE1C4B800528926 /* main.m in Sources */,
