@@ -12,20 +12,35 @@
 ![image]( https://github.com/fanggewang/FGDrawingBoard/blob/master/1.PNG?raw=true)
 
 自由绘图
+
+
 ![image](https://github.com/fanggewang/FGDrawingBoard/blob/master/2.PNG?raw=true)
 
 ###添加本地图片
 
 添加本地图片并部分打马赛克
+
+
+
 ![image](https://github.com/fanggewang/FGDrawingBoard/blob/master/3.PNG?raw=true)
 
 图片与自由画笔结合
+
+
+
+
 ![image](https://github.com/fanggewang/FGDrawingBoard/blob/master/4.PNG?raw=true)
 
 将完成的图片保存到本地
+
+
+
 ![image](https://github.com/fanggewang/FGDrawingBoard/blob/master/5.PNG?raw=true)
 
 ###保存到本地后生成的图片
+
+
+
 ![image](https://github.com/fanggewang/FGDrawingBoard/blob/master/6.JPG?raw=true)
 
 
