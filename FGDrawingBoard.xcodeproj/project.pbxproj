@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84164A5E1FBDA524000C5667 /* FGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84164A5D1FBDA524000C5667 /* FGView.m */; };
 		84D852161D1D080700C27106 /* black_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D851FA1D1D080700C27106 /* black_1.png */; };
 		84D852171D1D080700C27106 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D851FB1D1D080700C27106 /* black.png */; };
 		84D852181D1D080700C27106 /* blue_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D851FC1D1D080700C27106 /* blue_1.png */; };
@@ -76,6 +77,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84164A5C1FBDA524000C5667 /* FGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGView.h; sourceTree = "<group>"; };
+		84164A5D1FBDA524000C5667 /* FGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGView.m; sourceTree = "<group>"; };
 		84D851FA1D1D080700C27106 /* black_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_1.png; path = image/black_1.png; sourceTree = "<group>"; };
 		84D851FB1D1D080700C27106 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = image/black.png; sourceTree = "<group>"; };
 		84D851FC1D1D080700C27106 /* blue_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_1.png; path = image/blue_1.png; sourceTree = "<group>"; };
@@ -333,6 +336,8 @@
 		84F7D4041CE2D99F00528926 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				84164A5C1FBDA524000C5667 /* FGView.h */,
+				84164A5D1FBDA524000C5667 /* FGView.m */,
 			);
 			name = cells;
 			sourceTree = "<group>";
@@ -508,6 +513,7 @@
 				84F7D3C91CE1C4B800528926 /* main.m in Sources */,
 				84D8524A1D1D082200C27106 /* FGPageNormalView.m in Sources */,
 				84D8524C1D1D082200C27106 /* FGScratchView.m in Sources */,
+				84164A5E1FBDA524000C5667 /* FGView.m in Sources */,
 				84D852461D1D082200C27106 /* FGColourView.m in Sources */,
 				84D852491D1D082200C27106 /* FGNavigationItem.m in Sources */,
 				84D852481D1D082200C27106 /* FGInkLine.m in Sources */,
