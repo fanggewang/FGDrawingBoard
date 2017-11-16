@@ -56,6 +56,7 @@
 		84F7D3E21CE1C4B800528926 /* FGDrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D3E11CE1C4B800528926 /* FGDrawingBoardTests.m */; };
 		84F7D3ED1CE1C4B800528926 /* FGDrawingBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D3EC1CE1C4B800528926 /* FGDrawingBoardUITests.m */; };
 		84F7D4071CE2DB6700528926 /* FGButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D4061CE2DB6700528926 /* FGButtonModel.m */; };
+		FB00A22E1FBDA50E00914F9E /* qinlun.m in Sources */ = {isa = PBXBuildFile; fileRef = FB00A22D1FBDA50E00914F9E /* qinlun.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,8 @@
 		84F7D3EE1CE1C4B800528926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F7D4051CE2DB6700528926 /* FGButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGButtonModel.h; sourceTree = "<group>"; };
 		84F7D4061CE2DB6700528926 /* FGButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGButtonModel.m; sourceTree = "<group>"; };
+		FB00A22C1FBDA50E00914F9E /* qinlun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qinlun.h; path = ../../../Documents/qinlun.h; sourceTree = "<group>"; };
+		FB00A22D1FBDA50E00914F9E /* qinlun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = qinlun.m; path = ../../../Documents/qinlun.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +336,8 @@
 		84F7D4041CE2D99F00528926 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				FB00A22C1FBDA50E00914F9E /* qinlun.h */,
+				FB00A22D1FBDA50E00914F9E /* qinlun.m */,
 			);
 			name = cells;
 			sourceTree = "<group>";
@@ -507,6 +512,7 @@
 				84F7D4071CE2DB6700528926 /* FGButtonModel.m in Sources */,
 				84F7D3C91CE1C4B800528926 /* main.m in Sources */,
 				84D8524A1D1D082200C27106 /* FGPageNormalView.m in Sources */,
+				FB00A22E1FBDA50E00914F9E /* qinlun.m in Sources */,
 				84D8524C1D1D082200C27106 /* FGScratchView.m in Sources */,
 				84D852461D1D082200C27106 /* FGColourView.m in Sources */,
 				84D852491D1D082200C27106 /* FGNavigationItem.m in Sources */,
